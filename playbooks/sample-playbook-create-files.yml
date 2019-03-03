@@ -1,0 +1,5 @@
+---
+- hosts: allhosts
+  tasks:
+    - name: creating files
+      shell: touch /tmp/filefile
